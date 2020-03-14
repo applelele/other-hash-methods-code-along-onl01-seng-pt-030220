@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.flatten.sort
+  new_array = groceries.values.flatten.sort
   binding.pry
 end
