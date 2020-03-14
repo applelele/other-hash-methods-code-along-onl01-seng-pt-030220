@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   new_array = groceries.values.flatten.sort
-  binding.pry
+  return new_array[0]
 end
